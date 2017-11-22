@@ -1,0 +1,137 @@
+javac prog11/ChainedHashTable.java
+Note: ./prog11/ChainedHashTable.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+java prog11/ChainedTest
+-------------------------------
+0:
+1:
+2: Brad 46
+3:
+4:
+
+-------------------------------
+0:
+1:
+2: Hal 10 Brad 46
+3:
+4:
+
+-------------------------------
+0: Kyle 6
+1:
+2: Hal 10 Brad 46
+3:
+4:
+
+-------------------------------
+0: Kyle 6
+1:
+2: Hal 10 Brad 46
+3: Lisa 43
+4:
+
+-------------------------------
+0: Kyle 6
+1:
+2: Hal 10 Brad 46
+3: Lynne 43 Lisa 43
+4:
+
+-------------------------------
+0:
+1:
+2:
+3: Lisa 43
+4:
+5: Victor 46 Kyle 6
+6:
+7: Brad 46 Hal 10
+8: Lynne 43
+9:
+
+-------------------------------
+0:
+1:
+2: Zoe 6
+3: Lisa 43
+4:
+5: Victor 46 Kyle 6
+6:
+7: Brad 46 Hal 10
+8: Lynne 43
+9:
+
+-------------------------------
+0:
+1:
+2: Zoran 76 Zoe 6
+3: Lisa 43
+4:
+5: Victor 46 Kyle 6
+6:
+7: Brad 46 Hal 10
+8: Lynne 43
+9:
+
+Zoran Zoe Lisa Victor Kyle Brad Hal Lynne 
+-------------------------------
+0:
+1:
+2: Zoran 76
+3: Lisa 43
+4:
+5: Victor 46 Kyle 6
+6:
+7: Brad 46 Hal 10
+8: Lynne 43
+9:
+
+-------------------------------
+0:
+1:
+2: Zoran 76
+3: Lisa 43
+4:
+5: Victor 46
+6:
+7: Brad 46 Hal 10
+8: Lynne 43
+9:
+
+-------------------------------
+0:
+1:
+2: Zoran 76
+3: Lisa 43
+4:
+5: Victor 46
+6:
+7: Hal 10
+8: Lynne 43
+9:
+
+-------------------------------
+0:
+1:
+2:
+3: Lisa 43
+4:
+5: Victor 46
+6:
+7: Hal 10
+8: Lynne 43
+9:
+
+-------------------------------
+0:
+1:
+2:
+3:
+4:
+5: Victor 46
+6:
+7: Hal 10
+8: Lynne 43
+9:
+
+

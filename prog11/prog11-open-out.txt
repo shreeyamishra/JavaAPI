@@ -1,0 +1,965 @@
+javac prog11/OpenHashTable.java
+Note: ./prog11/OpenHashTable.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+java prog11/OpenTest
+-------------------------------
+0: null
+1: null
+2: Brad 46
+3: null
+4: null
+
+-------------------------------
+0: null
+1: null
+2: Brad 46
+3: Hal 10
+4: null
+
+-------------------------------
+0: null
+1: null
+2: null
+3: Kyle 6
+4: null
+5: null
+6: null
+7: Hal 10
+8: null
+9: null
+10: null
+11: Brad 46
+
+-------------------------------
+0: null
+1: null
+2: null
+3: Kyle 6
+4: Lisa 43
+5: null
+6: null
+7: Hal 10
+8: null
+9: null
+10: null
+11: Brad 46
+
+-------------------------------
+0: null
+1: null
+2: null
+3: Kyle 6
+4: Lisa 43
+5: null
+6: null
+7: Hal 10
+8: Lynne 43
+9: null
+10: null
+11: Brad 46
+
+-------------------------------
+0: null
+1: null
+2: null
+3: Kyle 6
+4: Lisa 43
+5: Victor 46
+6: null
+7: Hal 10
+8: Lynne 43
+9: null
+10: null
+11: Brad 46
+
+-------------------------------
+0: null
+1: null
+2: null
+3: null
+4: null
+5: null
+6: null
+7: Brad 46
+8: Lynne 43
+9: null
+10: null
+11: Kyle 6
+12: Hal 10
+13: Zoe 6
+14: null
+15: null
+16: null
+17: null
+18: null
+19: Victor 46
+20: null
+21: null
+22: null
+23: Lisa 43
+24: null
+25: null
+26: null
+27: null
+
+-------------------------------
+0: null
+1: null
+2: null
+3: null
+4: null
+5: null
+6: null
+7: Brad 46
+8: Lynne 43
+9: null
+10: Zoran 76
+11: Kyle 6
+12: Hal 10
+13: Zoe 6
+14: null
+15: null
+16: null
+17: null
+18: null
+19: Victor 46
+20: null
+21: null
+22: null
+23: Lisa 43
+24: null
+25: null
+26: null
+27: null
+
+Brad Lynne Zoran Kyle Hal Zoe Victor Lisa 
+-------------------------------
+0: null
+1: null
+2: null
+3: null
+4: null
+5: null
+6: null
+7: Brad 46
+8: Lynne 43
+9: null
+10: Zoran 76
+11: Kyle 6
+12: Hal 10
+13: DELETED
+14: null
+15: null
+16: null
+17: null
+18: null
+19: Victor 46
+20: null
+21: null
+22: null
+23: Lisa 43
+24: null
+25: null
+26: null
+27: null
+
+-------------------------------
+0: null
+1: null
+2: null
+3: null
+4: null
+5: null
+6: null
+7: Brad 46
+8: Lynne 43
+9: null
+10: Zoran 76
+11: DELETED
+12: Hal 10
+13: DELETED
+14: null
+15: null
+16: null
+17: null
+18: null
+19: Victor 46
+20: null
+21: null
+22: null
+23: Lisa 43
+24: null
+25: null
+26: null
+27: null
+
+-------------------------------
+0: null
+1: null
+2: null
+3: null
+4: null
+5: null
+6: null
+7: DELETED
+8: Lynne 43
+9: null
+10: Zoran 76
+11: DELETED
+12: Hal 10
+13: DELETED
+14: null
+15: null
+16: null
+17: null
+18: null
+19: Victor 46
+20: null
+21: null
+22: null
+23: Lisa 43
+24: null
+25: null
+26: null
+27: null
+
+-------------------------------
+0: null
+1: null
+2: null
+3: null
+4: null
+5: null
+6: null
+7: DELETED
+8: Lynne 43
+9: null
+10: DELETED
+11: DELETED
+12: Hal 10
+13: DELETED
+14: null
+15: null
+16: null
+17: null
+18: null
+19: Victor 46
+20: null
+21: null
+22: null
+23: Lisa 43
+24: null
+25: null
+26: null
+27: null
+
+-------------------------------
+0: null
+1: null
+2: null
+3: null
+4: null
+5: null
+6: null
+7: DELETED
+8: Lynne 43
+9: null
+10: DELETED
+11: DELETED
+12: Hal 10
+13: DELETED
+14: null
+15: null
+16: null
+17: null
+18: null
+19: Victor 46
+20: null
+21: null
+22: null
+23: DELETED
+24: null
+25: null
+26: null
+27: null
+
+-------------------------------
+0: null
+1: null
+2: null
+3: null
+4: null
+5: null
+6: null
+7: DELETED
+8: Lynne 43
+9: null
+10: DELETED
+11: DELETED
+12: DELETED
+13: DELETED
+14: null
+15: null
+16: null
+17: null
+18: null
+19: Victor 46
+20: null
+21: null
+22: null
+23: DELETED
+24: null
+25: null
+26: null
+27: null
+
+-------------------------------
+0: null
+1: null
+2: null
+3: null
+4: null
+5: null
+6: null
+7: DELETED
+8: DELETED
+9: null
+10: DELETED
+11: DELETED
+12: DELETED
+13: DELETED
+14: null
+15: null
+16: null
+17: null
+18: null
+19: Victor 46
+20: null
+21: null
+22: null
+23: DELETED
+24: null
+25: null
+26: null
+27: null
+
+-------------------------------
+0: null
+1: null
+2: null
+3: null
+4: null
+5: null
+6: null
+7: DELETED
+8: DELETED
+9: null
+10: DELETED
+11: DELETED
+12: DELETED
+13: DELETED
+14: null
+15: null
+16: null
+17: null
+18: null
+19: Victor 46
+20: null
+21: null
+22: null
+23: Ant 3
+24: null
+25: null
+26: null
+27: null
+
+-------------------------------
+0: null
+1: null
+2: null
+3: null
+4: null
+5: null
+6: null
+7: DELETED
+8: DELETED
+9: null
+10: DELETED
+11: DELETED
+12: DELETED
+13: DELETED
+14: null
+15: null
+16: null
+17: null
+18: null
+19: Victor 46
+20: null
+21: null
+22: null
+23: DELETED
+24: null
+25: null
+26: null
+27: null
+
+-------------------------------
+0: null
+1: null
+2: null
+3: null
+4: null
+5: null
+6: null
+7: DELETED
+8: DELETED
+9: null
+10: DELETED
+11: DELETED
+12: Bug 1
+13: DELETED
+14: null
+15: null
+16: null
+17: null
+18: null
+19: Victor 46
+20: null
+21: null
+22: null
+23: DELETED
+24: null
+25: null
+26: null
+27: null
+
+-------------------------------
+0: null
+1: null
+2: null
+3: null
+4: null
+5: null
+6: null
+7: DELETED
+8: DELETED
+9: null
+10: DELETED
+11: DELETED
+12: DELETED
+13: DELETED
+14: null
+15: null
+16: null
+17: null
+18: null
+19: Victor 46
+20: null
+21: null
+22: null
+23: DELETED
+24: null
+25: null
+26: null
+27: null
+
+-------------------------------
+0: null
+1: null
+2: Cat 4
+3: null
+4: null
+5: null
+6: null
+7: DELETED
+8: DELETED
+9: null
+10: DELETED
+11: DELETED
+12: DELETED
+13: DELETED
+14: null
+15: null
+16: null
+17: null
+18: null
+19: Victor 46
+20: null
+21: null
+22: null
+23: DELETED
+24: null
+25: null
+26: null
+27: null
+
+-------------------------------
+0: null
+1: null
+2: DELETED
+3: null
+4: null
+5: null
+6: null
+7: DELETED
+8: DELETED
+9: null
+10: DELETED
+11: DELETED
+12: DELETED
+13: DELETED
+14: null
+15: null
+16: null
+17: null
+18: null
+19: Victor 46
+20: null
+21: null
+22: null
+23: DELETED
+24: null
+25: null
+26: null
+27: null
+
+-------------------------------
+0: null
+1: null
+2: DELETED
+3: null
+4: null
+5: null
+6: null
+7: DELETED
+8: DELETED
+9: null
+10: DELETED
+11: DELETED
+12: Dog 1
+13: DELETED
+14: null
+15: null
+16: null
+17: null
+18: null
+19: Victor 46
+20: null
+21: null
+22: null
+23: DELETED
+24: null
+25: null
+26: null
+27: null
+
+-------------------------------
+0: null
+1: null
+2: DELETED
+3: null
+4: null
+5: null
+6: null
+7: DELETED
+8: DELETED
+9: null
+10: DELETED
+11: DELETED
+12: DELETED
+13: DELETED
+14: null
+15: null
+16: null
+17: null
+18: null
+19: Victor 46
+20: null
+21: null
+22: null
+23: DELETED
+24: null
+25: null
+26: null
+27: null
+
+-------------------------------
+0: null
+1: null
+2: DELETED
+3: null
+4: null
+5: null
+6: null
+7: DELETED
+8: DELETED
+9: null
+10: DELETED
+11: DELETED
+12: DELETED
+13: DELETED
+14: null
+15: null
+16: null
+17: null
+18: null
+19: Victor 46
+20: null
+21: null
+22: null
+23: DELETED
+24: Eel 5
+25: null
+26: null
+27: null
+
+-------------------------------
+0: null
+1: null
+2: DELETED
+3: null
+4: null
+5: null
+6: null
+7: DELETED
+8: DELETED
+9: null
+10: DELETED
+11: DELETED
+12: DELETED
+13: DELETED
+14: null
+15: null
+16: null
+17: null
+18: null
+19: Victor 46
+20: null
+21: null
+22: null
+23: DELETED
+24: DELETED
+25: null
+26: null
+27: null
+
+-------------------------------
+0: null
+1: null
+2: DELETED
+3: null
+4: null
+5: null
+6: null
+7: DELETED
+8: DELETED
+9: null
+10: DELETED
+11: DELETED
+12: DELETED
+13: DELETED
+14: null
+15: null
+16: null
+17: null
+18: null
+19: Victor 46
+20: Fox 9
+21: null
+22: null
+23: DELETED
+24: DELETED
+25: null
+26: null
+27: null
+
+-------------------------------
+0: null
+1: null
+2: DELETED
+3: null
+4: null
+5: null
+6: null
+7: DELETED
+8: DELETED
+9: null
+10: DELETED
+11: DELETED
+12: DELETED
+13: DELETED
+14: null
+15: null
+16: null
+17: null
+18: null
+19: Victor 46
+20: DELETED
+21: null
+22: null
+23: DELETED
+24: DELETED
+25: null
+26: null
+27: null
+
+-------------------------------
+0: null
+1: null
+2: DELETED
+3: null
+4: null
+5: null
+6: null
+7: DELETED
+8: DELETED
+9: null
+10: DELETED
+11: DELETED
+12: DELETED
+13: DELETED
+14: null
+15: null
+16: null
+17: null
+18: null
+19: Victor 46
+20: DELETED
+21: null
+22: Gnu 2
+23: DELETED
+24: DELETED
+25: null
+26: null
+27: null
+
+-------------------------------
+0: null
+1: null
+2: DELETED
+3: null
+4: null
+5: null
+6: null
+7: DELETED
+8: DELETED
+9: null
+10: DELETED
+11: DELETED
+12: DELETED
+13: DELETED
+14: null
+15: null
+16: null
+17: null
+18: null
+19: Victor 46
+20: DELETED
+21: null
+22: DELETED
+23: DELETED
+24: DELETED
+25: null
+26: null
+27: null
+
+-------------------------------
+0: null
+1: null
+2: DELETED
+3: null
+4: null
+5: null
+6: null
+7: DELETED
+8: DELETED
+9: null
+10: DELETED
+11: DELETED
+12: DELETED
+13: DELETED
+14: null
+15: null
+16: null
+17: null
+18: null
+19: Victor 46
+20: DELETED
+21: null
+22: DELETED
+23: DELETED
+24: DELETED
+25: Hen 2
+26: null
+27: null
+
+-------------------------------
+0: null
+1: null
+2: DELETED
+3: null
+4: null
+5: null
+6: null
+7: DELETED
+8: DELETED
+9: null
+10: DELETED
+11: DELETED
+12: DELETED
+13: DELETED
+14: null
+15: null
+16: null
+17: null
+18: null
+19: Victor 46
+20: DELETED
+21: null
+22: DELETED
+23: DELETED
+24: DELETED
+25: DELETED
+26: null
+27: null
+
+-------------------------------
+0: null
+1: null
+2: DELETED
+3: null
+4: null
+5: null
+6: null
+7: DELETED
+8: DELETED
+9: null
+10: DELETED
+11: DELETED
+12: DELETED
+13: DELETED
+14: Jay 2
+15: null
+16: null
+17: null
+18: null
+19: Victor 46
+20: DELETED
+21: null
+22: DELETED
+23: DELETED
+24: DELETED
+25: DELETED
+26: null
+27: null
+
+-------------------------------
+0: null
+1: null
+2: DELETED
+3: null
+4: null
+5: null
+6: null
+7: DELETED
+8: DELETED
+9: null
+10: DELETED
+11: DELETED
+12: DELETED
+13: DELETED
+14: DELETED
+15: null
+16: null
+17: null
+18: null
+19: Victor 46
+20: DELETED
+21: null
+22: DELETED
+23: DELETED
+24: DELETED
+25: DELETED
+26: null
+27: null
+
+-------------------------------
+0: null
+1: null
+2: null
+3: null
+4: Owl 2
+5: null
+6: null
+7: Victor 46
+
+-------------------------------
+0: null
+1: null
+2: null
+3: null
+4: DELETED
+5: null
+6: null
+7: Victor 46
+
+-------------------------------
+0: null
+1: null
+2: null
+3: null
+4: DELETED
+5: null
+6: Pig 2
+7: Victor 46
+
+-------------------------------
+0: null
+1: null
+2: null
+3: null
+4: DELETED
+5: null
+6: DELETED
+7: Victor 46
+
+-------------------------------
+0: null
+1: null
+2: null
+3: null
+4: DELETED
+5: Rat 2
+6: DELETED
+7: Victor 46
+
+-------------------------------
+0: null
+1: null
+2: null
+3: null
+4: DELETED
+5: DELETED
+6: DELETED
+7: Victor 46
+
+-------------------------------
+0: null
+1: null
+2: null
+3: Yak 2
+4: null
+5: null
+6: null
+7: Victor 46
+
+-------------------------------
+0: null
+1: null
+2: null
+3: DELETED
+4: null
+5: null
+6: null
+7: Victor 46
+
