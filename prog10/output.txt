@@ -1,0 +1,978 @@
+-------------------------
+eight
+                eight
+                                eight 8
+                                five 5
+                four
+                                four 4
+                                nine 9
+one
+                one
+                                one 1
+                                seven 7
+                six
+                                six 6
+                                three 3
+                two
+                                two 2
+                                zero 0
+
+containsKey(zero) = true
+containsKey(one) = true
+containsKey(two) = true
+containsKey(three) = true
+containsKey(four) = true
+containsKey(five) = true
+containsKey(six) = true
+containsKey(seven) = true
+containsKey(eight) = true
+containsKey(nine) = true
+containsKey(apple) = false
+containsKey(google) = false
+containsKey(zzz) = false
+get(zero) = 0
+get(one) = 1
+get(two) = 2
+get(three) = 3
+get(four) = 4
+get(five) = 5
+get(six) = 6
+get(seven) = 7
+get(eight) = 8
+get(nine) = 9
+get(apple) = null
+get(google) = null
+get(zzz) = null
+put(ten, 10) = null
+-------------------------
+eight
+                eight
+                                eight 8
+                                five 5
+                four
+                                four 4
+                                nine 9
+one
+                one
+                                one 1
+                                seven 7
+                six
+                                six 6
+                                ten 10
+                                three 3
+                two
+                                two 2
+                                zero 0
+
+put(eleven, 11) = null
+-------------------------
+eight
+                eight
+                                eight 8
+                                eleven 11
+                                five 5
+                four
+                                four 4
+                                nine 9
+one
+                one
+                                one 1
+                                seven 7
+                six
+                                six 6
+                                ten 10
+                                three 3
+                two
+                                two 2
+                                zero 0
+
+put(twelve, 12) = null
+-------------------------
+eight
+                eight
+                                eight 8
+                                eleven 11
+                                five 5
+                four
+                                four 4
+                                nine 9
+one
+                one
+                                one 1
+                                seven 7
+                six
+                                six 6
+                                ten 10
+three
+                three
+                                three 3
+                                twelve 12
+                two
+                                two 2
+                                zero 0
+
+put(thirteen, 13) = null
+-------------------------
+eight
+                eight
+                                eight 8
+                                eleven 11
+                                five 5
+                four
+                                four 4
+                                nine 9
+one
+                one
+                                one 1
+                                seven 7
+                six
+                                six 6
+                                ten 10
+                                thirteen 13
+three
+                three
+                                three 3
+                                twelve 12
+                two
+                                two 2
+                                zero 0
+
+put(fourteen, 14) = null
+-------------------------
+eight
+                eight
+                                eight 8
+                                eleven 11
+                                five 5
+                four
+                                four 4
+                                fourteen 14
+                                nine 9
+one
+                one
+                                one 1
+                                seven 7
+                six
+                                six 6
+                                ten 10
+                                thirteen 13
+three
+                three
+                                three 3
+                                twelve 12
+                two
+                                two 2
+                                zero 0
+
+put(fifteen, 15) = null
+-------------------------
+eight
+                eight
+                                eight 8
+                                eleven 11
+                fifteen
+                                fifteen 15
+                                five 5
+                four
+                                four 4
+                                fourteen 14
+                                nine 9
+one
+                one
+                                one 1
+                                seven 7
+                six
+                                six 6
+                                ten 10
+                                thirteen 13
+three
+                three
+                                three 3
+                                twelve 12
+                two
+                                two 2
+                                zero 0
+
+put(sixteen, 16) = null
+-------------------------
+eight
+                eight
+                                eight 8
+                                eleven 11
+                fifteen
+                                fifteen 15
+                                five 5
+                four
+                                four 4
+                                fourteen 14
+                                nine 9
+one
+                one
+                                one 1
+                                seven 7
+                six
+                                six 6
+                                sixteen 16
+                ten
+                                ten 10
+                                thirteen 13
+three
+                three
+                                three 3
+                                twelve 12
+                two
+                                two 2
+                                zero 0
+
+put(seventeen, 17) = null
+-------------------------
+eight
+                eight
+                                eight 8
+                                eleven 11
+                fifteen
+                                fifteen 15
+                                five 5
+                four
+                                four 4
+                                fourteen 14
+                                nine 9
+one
+                one
+                                one 1
+                                seven 7
+                                seventeen 17
+                six
+                                six 6
+                                sixteen 16
+                ten
+                                ten 10
+                                thirteen 13
+three
+                three
+                                three 3
+                                twelve 12
+                two
+                                two 2
+                                zero 0
+
+put(eighteen, 18) = null
+-------------------------
+eight
+                eight
+                                eight 8
+                                eighteen 18
+                                eleven 11
+                fifteen
+                                fifteen 15
+                                five 5
+                four
+                                four 4
+                                fourteen 14
+                                nine 9
+one
+                one
+                                one 1
+                                seven 7
+                                seventeen 17
+                six
+                                six 6
+                                sixteen 16
+                ten
+                                ten 10
+                                thirteen 13
+three
+                three
+                                three 3
+                                twelve 12
+                two
+                                two 2
+                                zero 0
+
+put(nineteen, 19) = null
+-------------------------
+eight
+                eight
+                                eight
+                                                eight 8
+                                                eighteen 18
+                                                eleven 11
+                                fifteen
+                                                fifteen 15
+                                                five 5
+                four
+                                four
+                                                four 4
+                                                fourteen 14
+                                nine
+                                                nine 9
+                                                nineteen 19
+one
+                one
+                                one
+                                                one 1
+                                                seven 7
+                                                seventeen 17
+                                six
+                                                six 6
+                                                sixteen 16
+                                ten
+                                                ten 10
+                                                thirteen 13
+                three
+                                three
+                                                three 3
+                                                twelve 12
+                                two
+                                                two 2
+                                                zero 0
+
+put(zero, 0) = 0
+-------------------------
+eight
+                eight
+                                eight
+                                                eight 8
+                                                eighteen 18
+                                                eleven 11
+                                fifteen
+                                                fifteen 15
+                                                five 5
+                four
+                                four
+                                                four 4
+                                                fourteen 14
+                                nine
+                                                nine 9
+                                                nineteen 19
+one
+                one
+                                one
+                                                one 1
+                                                seven 7
+                                                seventeen 17
+                                six
+                                                six 6
+                                                sixteen 16
+                                ten
+                                                ten 10
+                                                thirteen 13
+                three
+                                three
+                                                three 3
+                                                twelve 12
+                                two
+                                                two 2
+                                                zero 0
+
+put(one, -1) = 1
+-------------------------
+eight
+                eight
+                                eight
+                                                eight 8
+                                                eighteen 18
+                                                eleven 11
+                                fifteen
+                                                fifteen 15
+                                                five 5
+                four
+                                four
+                                                four 4
+                                                fourteen 14
+                                nine
+                                                nine 9
+                                                nineteen 19
+one
+                one
+                                one
+                                                one -1
+                                                seven 7
+                                                seventeen 17
+                                six
+                                                six 6
+                                                sixteen 16
+                                ten
+                                                ten 10
+                                                thirteen 13
+                three
+                                three
+                                                three 3
+                                                twelve 12
+                                two
+                                                two 2
+                                                zero 0
+
+put(two, -2) = 2
+-------------------------
+eight
+                eight
+                                eight
+                                                eight 8
+                                                eighteen 18
+                                                eleven 11
+                                fifteen
+                                                fifteen 15
+                                                five 5
+                four
+                                four
+                                                four 4
+                                                fourteen 14
+                                nine
+                                                nine 9
+                                                nineteen 19
+one
+                one
+                                one
+                                                one -1
+                                                seven 7
+                                                seventeen 17
+                                six
+                                                six 6
+                                                sixteen 16
+                                ten
+                                                ten 10
+                                                thirteen 13
+                three
+                                three
+                                                three 3
+                                                twelve 12
+                                two
+                                                two -2
+                                                zero 0
+
+put(three, -3) = 3
+-------------------------
+eight
+                eight
+                                eight
+                                                eight 8
+                                                eighteen 18
+                                                eleven 11
+                                fifteen
+                                                fifteen 15
+                                                five 5
+                four
+                                four
+                                                four 4
+                                                fourteen 14
+                                nine
+                                                nine 9
+                                                nineteen 19
+one
+                one
+                                one
+                                                one -1
+                                                seven 7
+                                                seventeen 17
+                                six
+                                                six 6
+                                                sixteen 16
+                                ten
+                                                ten 10
+                                                thirteen 13
+                three
+                                three
+                                                three -3
+                                                twelve 12
+                                two
+                                                two -2
+                                                zero 0
+
+put(four, -4) = 4
+-------------------------
+eight
+                eight
+                                eight
+                                                eight 8
+                                                eighteen 18
+                                                eleven 11
+                                fifteen
+                                                fifteen 15
+                                                five 5
+                four
+                                four
+                                                four -4
+                                                fourteen 14
+                                nine
+                                                nine 9
+                                                nineteen 19
+one
+                one
+                                one
+                                                one -1
+                                                seven 7
+                                                seventeen 17
+                                six
+                                                six 6
+                                                sixteen 16
+                                ten
+                                                ten 10
+                                                thirteen 13
+                three
+                                three
+                                                three -3
+                                                twelve 12
+                                two
+                                                two -2
+                                                zero 0
+
+put(five, -5) = 5
+-------------------------
+eight
+                eight
+                                eight
+                                                eight 8
+                                                eighteen 18
+                                                eleven 11
+                                fifteen
+                                                fifteen 15
+                                                five -5
+                four
+                                four
+                                                four -4
+                                                fourteen 14
+                                nine
+                                                nine 9
+                                                nineteen 19
+one
+                one
+                                one
+                                                one -1
+                                                seven 7
+                                                seventeen 17
+                                six
+                                                six 6
+                                                sixteen 16
+                                ten
+                                                ten 10
+                                                thirteen 13
+                three
+                                three
+                                                three -3
+                                                twelve 12
+                                two
+                                                two -2
+                                                zero 0
+
+put(six, -6) = 6
+-------------------------
+eight
+                eight
+                                eight
+                                                eight 8
+                                                eighteen 18
+                                                eleven 11
+                                fifteen
+                                                fifteen 15
+                                                five -5
+                four
+                                four
+                                                four -4
+                                                fourteen 14
+                                nine
+                                                nine 9
+                                                nineteen 19
+one
+                one
+                                one
+                                                one -1
+                                                seven 7
+                                                seventeen 17
+                                six
+                                                six -6
+                                                sixteen 16
+                                ten
+                                                ten 10
+                                                thirteen 13
+                three
+                                three
+                                                three -3
+                                                twelve 12
+                                two
+                                                two -2
+                                                zero 0
+
+put(seven, -7) = 7
+-------------------------
+eight
+                eight
+                                eight
+                                                eight 8
+                                                eighteen 18
+                                                eleven 11
+                                fifteen
+                                                fifteen 15
+                                                five -5
+                four
+                                four
+                                                four -4
+                                                fourteen 14
+                                nine
+                                                nine 9
+                                                nineteen 19
+one
+                one
+                                one
+                                                one -1
+                                                seven -7
+                                                seventeen 17
+                                six
+                                                six -6
+                                                sixteen 16
+                                ten
+                                                ten 10
+                                                thirteen 13
+                three
+                                three
+                                                three -3
+                                                twelve 12
+                                two
+                                                two -2
+                                                zero 0
+
+put(eight, -8) = 8
+-------------------------
+eight
+                eight
+                                eight
+                                                eight -8
+                                                eighteen 18
+                                                eleven 11
+                                fifteen
+                                                fifteen 15
+                                                five -5
+                four
+                                four
+                                                four -4
+                                                fourteen 14
+                                nine
+                                                nine 9
+                                                nineteen 19
+one
+                one
+                                one
+                                                one -1
+                                                seven -7
+                                                seventeen 17
+                                six
+                                                six -6
+                                                sixteen 16
+                                ten
+                                                ten 10
+                                                thirteen 13
+                three
+                                three
+                                                three -3
+                                                twelve 12
+                                two
+                                                two -2
+                                                zero 0
+
+put(nine, -9) = 9
+-------------------------
+eight
+                eight
+                                eight
+                                                eight -8
+                                                eighteen 18
+                                                eleven 11
+                                fifteen
+                                                fifteen 15
+                                                five -5
+                four
+                                four
+                                                four -4
+                                                fourteen 14
+                                nine
+                                                nine -9
+                                                nineteen 19
+one
+                one
+                                one
+                                                one -1
+                                                seven -7
+                                                seventeen 17
+                                six
+                                                six -6
+                                                sixteen 16
+                                ten
+                                                ten 10
+                                                thirteen 13
+                three
+                                three
+                                                three -3
+                                                twelve 12
+                                two
+                                                two -2
+                                                zero 0
+
+remove(zero) = 0
+-------------------------
+eight
+                eight
+                                eight
+                                                eight -8
+                                                eighteen 18
+                                                eleven 11
+                                fifteen
+                                                fifteen 15
+                                                five -5
+                four
+                                four
+                                                four -4
+                                                fourteen 14
+                                nine
+                                                nine -9
+                                                nineteen 19
+one
+                one
+                                one
+                                                one -1
+                                                seven -7
+                                                seventeen 17
+                                six
+                                                six -6
+                                                sixteen 16
+                ten
+                                ten
+                                                ten 10
+                                                thirteen 13
+                                three
+                                                three -3
+                                                twelve 12
+                                                two -2
+
+remove(one) = -1
+-------------------------
+eight
+                eight
+                                eight
+                                                eight -8
+                                                eighteen 18
+                                                eleven 11
+                                fifteen
+                                                fifteen 15
+                                                five -5
+                four
+                                four
+                                                four -4
+                                                fourteen 14
+                                nine
+                                                nine -9
+                                                nineteen 19
+seven
+                seven
+                                seven
+                                                seven -7
+                                                seventeen 17
+                                six
+                                                six -6
+                                                sixteen 16
+                ten
+                                ten
+                                                ten 10
+                                                thirteen 13
+                                three
+                                                three -3
+                                                twelve 12
+                                                two -2
+
+remove(two) = -2
+-------------------------
+eight
+                eight
+                                eight
+                                                eight -8
+                                                eighteen 18
+                                                eleven 11
+                                fifteen
+                                                fifteen 15
+                                                five -5
+                four
+                                four
+                                                four -4
+                                                fourteen 14
+                                nine
+                                                nine -9
+                                                nineteen 19
+seven
+                seven
+                                seven
+                                                seven -7
+                                                seventeen 17
+                                six
+                                                six -6
+                                                sixteen 16
+                ten
+                                ten
+                                                ten 10
+                                                thirteen 13
+                                three
+                                                three -3
+                                                twelve 12
+
+remove(three) = -3
+-------------------------
+eight
+                eight
+                                eight -8
+                                eighteen 18
+                                eleven 11
+                fifteen
+                                fifteen 15
+                                five -5
+four
+                four
+                                four -4
+                                fourteen 14
+                nine
+                                nine -9
+                                nineteen 19
+seven
+                seven
+                                seven -7
+                                seventeen 17
+                six
+                                six -6
+                                sixteen 16
+                ten
+                                ten 10
+                                thirteen 13
+                                twelve 12
+
+remove(four) = -4
+-------------------------
+eight
+                eight
+                                eight -8
+                                eighteen 18
+                                eleven 11
+                fifteen
+                                fifteen 15
+                                five -5
+                fourteen
+                                fourteen 14
+                                nine -9
+                                nineteen 19
+seven
+                seven
+                                seven -7
+                                seventeen 17
+                six
+                                six -6
+                                sixteen 16
+                ten
+                                ten 10
+                                thirteen 13
+                                twelve 12
+
+remove(five) = -5
+-------------------------
+eight
+                eight
+                                eight -8
+                                eighteen 18
+                eleven
+                                eleven 11
+                                fifteen 15
+                fourteen
+                                fourteen 14
+                                nine -9
+                                nineteen 19
+seven
+                seven
+                                seven -7
+                                seventeen 17
+                six
+                                six -6
+                                sixteen 16
+                ten
+                                ten 10
+                                thirteen 13
+                                twelve 12
+
+remove(six) = -6
+-------------------------
+eight
+                eight
+                                eight -8
+                                eighteen 18
+                eleven
+                                eleven 11
+                                fifteen 15
+                fourteen
+                                fourteen 14
+                                nine -9
+                                nineteen 19
+seven
+                seven
+                                seven -7
+                                seventeen 17
+                                sixteen 16
+                ten
+                                ten 10
+                                thirteen 13
+                                twelve 12
+
+remove(seven) = -7
+-------------------------
+eight
+                eight
+                                eight -8
+                                eighteen 18
+                eleven
+                                eleven 11
+                                fifteen 15
+                fourteen
+                                fourteen 14
+                                nine -9
+                                nineteen 19
+seventeen
+                seventeen
+                                seventeen 17
+                                sixteen 16
+                ten
+                                ten 10
+                                thirteen 13
+                                twelve 12
+
+remove(eight) = -8
+-------------------------
+eighteen
+                eighteen
+                                eighteen 18
+                                eleven 11
+                                fifteen 15
+                fourteen
+                                fourteen 14
+                                nine -9
+                                nineteen 19
+seventeen
+                seventeen
+                                seventeen 17
+                                sixteen 16
+                ten
+                                ten 10
+                                thirteen 13
+                                twelve 12
+
+remove(nine) = -9
+-------------------------
+eighteen
+                eighteen
+                                eighteen 18
+                                eleven 11
+                                fifteen 15
+                fourteen
+                                fourteen 14
+                                nineteen 19
+seventeen
+                seventeen
+                                seventeen 17
+                                sixteen 16
+                ten
+                                ten 10
+                                thirteen 13
+                                twelve 12
+
